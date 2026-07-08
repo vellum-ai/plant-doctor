@@ -17,6 +17,42 @@ or worse.
 - **No extra API keys.** Inference routes through the credentials your
   assistant already uses, via the plugin API's configured-provider handle.
 
+## How to use
+
+Once installed, just talk to your assistant. No commands to memorize.
+
+**Diagnose a plant:**
+
+1. Send a photo of the plant in chat (whole plant or a close-up of the
+   problem area, both work; close-ups of leaf damage or soil give better
+   answers).
+2. Ask something like:
+   - "what's wrong with my plant?"
+   - "is this thing dying?"
+   - "what plant is this and how do I care for it?"
+3. Add context if you have it: "I water it twice a week and it sits by a
+   north window." Symptoms and watering habits materially improve the
+   diagnosis.
+
+**Track a plant over time:**
+
+Give the plant a name the first time you diagnose it ("this is Fernando")
+and every checkup is logged to its history. Then later:
+
+- "how are my plants doing?" gets you the roster with each plant's latest status
+- "how is Fernando doing?" gets his full checkup history and trend
+- send a new photo and ask "is Fernando getting better?": the assistant compares
+  the new diagnosis against the last one and tells you if the treatment
+  is working
+
+One-off diagnoses without a name work fine too; they just aren't logged.
+
+**Tips for better photos:**
+
+- Natural light, no flash if possible.
+- For pests or spots: underside of the leaves and a close-up.
+- For wilting or drooping: whole plant plus the top of the soil.
+
 ## Surfaces
 
 | Surface | Name | Purpose |
