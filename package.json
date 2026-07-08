@@ -1,0 +1,10 @@
+{
+  "name": "plant-doctor",
+  "version": "0.1.0",
+  "description": "Photo-based plant diagnosis with care instructions and per-plant health history.",
+  "type": "module",
+  "peerDependencies": {
+    "@vellumai/plugin-api": "^0.10.0"
+  },
+  "vellum": {}
+}
